@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #7BEAF3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.whiteBar{
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.whiteBar p {
+    color: #052942;
+    text-align: center;
+    background: transparent;
+    line-height: 50%;
+    font-size: 20px;
+    font-weight: 600;    
+}
+.cabecalho{
+    width: 100%;
+}
+.cabecalho h1{
+    color: #052942;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 80px;
+}
+.imagem{
+    position: absolute;
+    right: 150px;
+    width: 400px;
+    margin-top: -100px;
+    background: transparent;
+}
+.container-search{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.iconeLupa{
+    background: transparent;
+    height: 55px;
+    width: 55px;
+    margin-top: 12.5px;
+    margin-left: 20px;
+    position: absolute;
+    color: #C3C3C3;
+}
+.search__input{
+    width: 750px;
+    height: 80px;
+    background-color: white;
+    border-radius: 300px;
+    position: absolute;
+    color: #C3C3C3;
+}
+.search__button button{
+    width: 200px;
+    margin-top: 10px;
+    height: 60px;
+    position: absolute;
+    display: block;
+    background: #052942;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 300px;
+    border: none;
+    margin-left: 540px;
+}
+.search__button button:hover{
+    background: #000;
+    color: #fff;
+}
+.search__input input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+    border: none;
+    font-size: 20px;
+    padding-left: 100px;
+    outline: 0;
+}
+.localizacao{
+    height: 60px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 800px;
+    background-color: #fff;
+    border-radius: 300px;
+    position: absolute;
+}
+.localizacao input{
+    display: flex;
+    color: #C3C3C3;
+    text-align: center;
+    background: transparent;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 120px;
+    border: none;
+    outline: 0;
+
+}
+.localizacao__icon{
+    display: inline;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C3C3C3;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+}
+.cards{
+    width: 76%;
+    height: 280px;
+    margin-left: 10%;
+    margin-top: 450px;
+    display: flex;
+    justify-content: center;
+    
+}
+.itemCard{
+    width: 370px;
+    height: 90%;
+    float: left;
+    margin-left: 49px;
+    background: #fff;
+    border-radius: 45px;
+}
+.cardIcon{
+    background: transparent;
+    float: flex;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-left: 45%;
+    margin-top: 15px;
+    color: #052942;
+}
+.itemCard p{
+    background: transparent;
+    color: #666565;
+    padding: 30px;
+    text-align: justify;    
+}
